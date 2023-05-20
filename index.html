@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="bg-gradient-to-r from-orange-600 to-orange-500" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body class="dark:bg-slate-900 dark:text-white dark:bg-none ">
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex Container-->
+        <div class="flex item-center justify-between">
+            <!-- Logo-->
+            <div class="pt-2 md:1/3">
+                <img class="dark:hidden" src="images/logo.svg" alt="">
+                <img class=" hidden dark:block" src="images/logo-white.svg" alt="">
+            </div>
+
+            <!--Menu Items-->
+            <div class="hidden md:1/3 md:flex font-bold space-x-5 px-5"> 
+                <a href="#" class="hover:text-gray-500">Home</a>
+                <a href="#" class="hover:text-gray-500">Reviews</a>
+                <a href="#"class="hover:text-gray-500">Order</a>
+                <a href="#"class="hover:text-gray-500">Menu</a>
+                <a href="#"class="hover:text-gray-500">Chefs</a>
+                <a href="#"class="hover:text-gray-500">Contacts</a>
+
+            </div>
+            <!-- Button Item-->
+            <div class="md:1/3"></div>
+                <a href="" class="toggle-dark p-3 px-6 pt-2 text-md font-thin text-white bg-gray-300 dark:bg-emerald-700 rounded-full baseline hover:bg-emerald-300 dark:hover:bg-gray-700 shadow-xl md:block">☀/🌑</a>
+                <a href="" class="hidden p-3 px-6 pt-2 text-white bg-veryDarkBlue rounded-full baseline hover:bg-brightRedLight shadow-xl md:block">Book an Order</a>
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger focus:outline-none md:hidden" >
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                   <a href="#" class="hover:text-brightRed">Home</a>
+                    <a href="#" class="hover:text-brightRed">Review</a>
+                    <a href="#" class="hover:text-brightRed">Order</a>
+                    <a href="#" class="hover:text-brightRed">Menu</a>
+                    <a href="#" class="hover:text-brightRed">Contacts</a>
+
+            </div>
+        </div>
+    </nav>
+    <!--Hero Section-->
+    <section id="Hero">
+        <div class="container flex flex-col-reverse items-center  px-6 mx-auto mt-10 space-y-0  md:space-y-0 md:flex-row">
+            <!--Flex Container-->
+            <div class="flex flex-col px-9 mb-32 mt-10 mr-10 space-y-12 md:w-1/2">
+                <!--Left Item-->
+                <h1 class="text-darkBlue dark:text-gray-400 font-bold max-w-md text-center text-4xl md:text-5xl md:text-left">Enjoy all variety of Dioscorea Alata</h1>
+                <h1 class="text-darkBlue dark:text-gray-400 font-bold max-w-md text-center text-4xl md:text-5xl md:text-left">Yam And Egg</h1>
+                <p class="text-center font-serif md:text-left">Yam and Egg are a delicious food combination . It is Popular food combo that is eaten in Nigeria and many part of the world</p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="" class="p-3 px-6 pt-2 text-white bg-veryDarkBlue rounded-full baseline hover:bg-brightRedLight shadow-xl">Book an Order</a>
+                </div>
+            </div>
+            <!--Image Items-->
+            <div class="ml-30 md:w-1/2">
+                <img class="rounded-2xl ml-28" src="images/Yam.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    
+     <!--Menu Section 2-->
+     <section id="Menu 2">
+         <h1 class="text-gray-500 font-bold my-6 mx-auto max-w-md text-center text-2xl md:text-4xl ">Amazing Food @ <span class="text-orange-400"> Motun`s Menu</span></h1>
+         <!--Meals-->
+        <div class="container flex flex-col items-center px-6 mx-auto my-5 md:space-y-0 md:flex-row">
+            <!--Row 1-->
+            <div class="flex flex-col px-9 mb-5  space-y-3  md:1/3">
+                <img class="mx-auto" style="max-width:60%; height: auto;" src="images/Asharo.png" alt="">
+                <h4 class="text-center font-bold ">Asharo</h4>
+                <h4 class="text-center text-green-400 font-bold ">#1500</h4>
+
+            </div>
+            <div class="flex flex-col px-9 mb-5 space-y-3 md:1/3">
+                <img class="mx-auto" style="max-width:80%; height: auto;" src="images/Rice.png" alt="">
+                <h4 class="text-center font-bold ">Rice&Beans</h4>
+                <h4 class="text-center text-green-400 font-bold ">#1500</h4>
+
+            </div>
+            <div class="flex flex-col px-9 mb-5 space-y-3 md:1/3">
+                <img class="mx-auto" style="max-width:60%; height: auto;" src="images/Spag 2.png" alt="">
+                <h4 class="text-center font-bold ">Spaghetti</h4>
+                <h4 class="text-center text-green-400 font-bold ">#3000</h4>
+
+            </div>
+        </div>
+        <div class="container flex flex-col items-center px-6 mx-auto mt-10 md:space-y-0 md:flex-row">
+            <!--Row 2-->
+            <div class="flex flex-col px-9  space-y-3  md:1/3">
+                <img class="mx-auto" src="images/Nood2.png" alt="" style="max-width:70%; height: auto;">
+                <h4 class="text-center font-bold -mt-24">Chicken Soup</h4>
+                <h4 class="text-center text-green-400 font-bold ">#5000</h4>
+
+            </div>
+            <div class="flex flex-col px-9  space-y-3 md:1/3">
+                <img class="mx-auto" style="max-width:80%; height: auto;" src="images/Nood.png" alt="">
+                <h4 class="text-center font-bold ">Noodles</h4>
+                <h4 class="text-center  text-green-400 font-bold ">#2500</h4>
+            </div>
+            <div class="flex flex-col px-9 mb-32 space-y-3 md:1/3">
+                <img class="mx-auto"  style="max-width:60%; height: auto;" src="images/Amala.png" alt="">
+                <h4 class="text-center font-bold ">Amala</h4>
+                <h4 class="text-center text-green-400 font-bold ">#1500</h4>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonial-->
+    <section id="Testimonial">
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+            <!--Heading-->
+            <h2 class="text-4xl font-bold text-center">Reviews</h2>
+            <div class=" flex flex-col mt-24 md:flex-row md:space-x-6">
+                <div class="flex flex-col mb-10 items-center p-6 space-y-6 rounded-lg bg-emerald-200 dark:bg-pink-300  md:w-1/3">
+                    <img class="w-16 rounded-r-xl rounded-l-xl -mt-14" src="images/Agba 2.png" alt="">
+                    <h5 class="text-lg font-bold">Micheal</h5>
+                    <p class="text-sm ">"The fast delivery has left the best impression! Hospitable host,delicious dishes,beautiful presentation. I`m definitely going to try again"</p>
+                </div>
+                <div class="flex flex-col mb-10 items-center p-6 space-y-6 rounded-lg bg-green-200 dark:bg-teal-300 md:w-1/3">
+                    <img class="w-16 rounded-r-xl rounded-l-xl -mt-14" src="images/Tife 2.png" alt="">
+                    <h5 class="text-lg font-bold my-30">Tife</h5>
+                    <p class="text-sm ">"When I think of Feasting,Motun is always my first option and it never dissapoints"</p>
+                </div>
+                <div class="flex flex-col mb-10  items-center p-6 space-y-6 rounded-lg bg-blue-200  dark:bg-pink-800 md:w-1/3">
+                    <img class="w-16 rounded-r-xl rounded-l-xl -mt-14" src="images/Odun 2.png" alt="">
+                    <h5 class="text-lg font-bold">Magret</h5>
+                    <p class="text-sm ">"First time ordering from Motun🤩🤩! The Pounded Yam is to die for . IT was FIRE!!"</p>
+                </div>
+                <div class="flex flex-col mb-10  items-center p-6 space-y-6 rounded-lg bg-purple-200  dark:bg-teal-800 md:w-1/3">
+                    <img class="w-16 rounded-r-xl rounded-l-xl -mt-14" src="images/Agbai 2.png" alt="">
+                    <h5 class="text-lg font-bold">Dorcas</h5>
+                    <p class="text-sm ">"Excellent Food. Menu is extensive and seasonal to a particularly high standard. The Rice, Beans, Fufu might have been the best Meal I have ever been served."</p>
+                </div>
+                <div class="flex flex-col mb-10  items-center p-6 space-y-6 rounded-lg bg-purple-200  dark:bg-teal-800 md:w-1/3">
+                    <img class="w-16 rounded-r-xl rounded-l-xl -mt-14" src="images/Papa 2.png" alt="">
+                    <h5 class="text-lg font-bold">Emmanuel</h5>
+                    <p class="text-sm ">"This is my favorite place. The food is always fantastic and no matter wha i order, I`m always delighted with my meal. I can`t wait to order and would not hesitate to recommend to anyone looking for where to order food to eat "</p>
+                </div>
+            </div>
+            <!--Button-->
+            <div class="my-16"><a href="" class=" p-3 px-6 pt-2 text-white bg-veryDarkBlue rounded-full baseline hover:bg-brightRedLight shadow-xl">Order Now</a></div>
+        </div>
+    </section>
+    <!--Cta Section-->
+    <section id="Cta" class="bg-pink-400">
+        <!--Flex Cotainer-->
+        <div class=" container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <!--Words-->
+            <h1 class="text-center text-white font-bold text-5xl leading-tight flex flex-col md:4xl md:max-w-xl md:text-left">You want to order to our delicious food ? </h1>
+            <!--Button-->
+            <div class="animate-bounce">
+                <a href="" class=" p-3 px-6 pt-2 animate-spin bg-white text-brightRed rounded-full baseline hover:bg-gray-600 shadow-xl">Ready</a>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col items-center w-1/2">
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-veryDarkBlue ">
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!--Logo And Icon-->
+            <div class="flex flex-col-reverse justify-between space-y-12 items-center md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-white text-center md:hidden">Copyright 2023. All Rights Reserved
+                    
+                </div>
+                <!--Logo-->
+                <img class="h-8" src="images/logo-white.svg" alt="">  
+                <!--Icon-->
+                <div class="flex justify-center pb-10 space-x-4 ">
+                    <!--1-->
+                    <a href="#"><img class="h-6" src="images/icon-facebook.svg" alt=""></a>
+                    <!--2-->
+                    <a href="#"><img class="h-6" src="images/icon-youtube.svg" alt=""></a>
+                    <!--3-->
+                    <a href="#"><img class="h-6" src="images/icon-twitter.svg" alt=""></a>
+                    <!--4-->
+                    <a href="#"><img class="h-6" src="images/icon-pinterest.svg" alt=""></a>
+                    <!--5-->
+                    <a href="#"><img class="h-6" src="images/icon-instagram.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-brightRed">Home</a>
+                    <a href="#" class="hover:text-brightRed">Reviews</a>
+                    <a href="#" class="hover:text-brightRed">Pricing</a>
+                    <a href="#" class="hover:text-brightRed">Order</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-brightRed">Menu</a>
+                    <a href="#" class="hover:text-brightRed">Chefs</a>
+                    <a href="#" class="hover:text-brightRed">Contacts</a>
+                    <a href="#" class="hover:text-brightRed"></a>
+                </div>
+            </div>
+            <div class="flex flex-col justify-between">
+              <form action="">
+                <div class="flex space-x-">
+                    <input type="text" class="flex-1  px-4 focus:outline-none text-slate-700 rounded-full" name="" id="" placeholder="Place Your Order Now">
+                    <button  class="animate-pulse bg-brightRed focus:outline-none px-6 py-2 text-white rounded-full baseline hover:bg-gray-600 shadow-xl">Go</button>
+                </div>
+                <h2 class="hidden pt-10 text-white font-mono md:block">Copyright 2023. All Rights Reserved</h2> 
+              </form>
+            </div>
+        </div>
+       
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
